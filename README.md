@@ -12,3 +12,5 @@ Demo
 - Point your webserver to root root folder and access as http://localhost:8080/app/
 - or if you have python installed then 
 	python -m SimpleHTTPServer 8080 from root folder
+
+![alt tag](https://github.com/ranjeethpt/ProgressBarDemo-Angularjs/blob/master/ProgressBarIMG.png)
