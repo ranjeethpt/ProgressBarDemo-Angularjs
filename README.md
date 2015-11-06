@@ -7,3 +7,8 @@ The technology Used are:
 - HTML5
 - CSS3.0
 -NaturalDocs - For generating javascript docs.
+
+Demo
+- Point your webserver to root root folder and access as http://localhost:8080/app/
+- or if you have python installed then 
+	python -m SimpleHTTPServer 8080
