@@ -6,7 +6,7 @@ The technology Used are:
 - BootStrap
 - HTML5
 - CSS3.0
--NaturalDocs - For generating javascript docs.
+- NaturalDocs - For generating javascript docs.
 
 Demo
 - Point your webserver to root root folder and access as http://localhost:8080/app/
