@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/css/lib/bootstrap.css"> 
+    <link rel="stylesheet" href="themes/css/esse-styles.css" type="text/css">
+    <script src="js/lib/angular/angular.js"></script>
+    <script src="js/lib/Class.js"></script>
+</head>
+<body class="main">     
+    <div ng-controller="OpenModalCntrl as openModalCtrl">
+        <button class="btn btn-default" ng-click="openModalCtrl.open()">Open me!</button>
+    </div>
+    <!-- Load all the routes -->
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/webUI/progressbar/ProgressBarController.js"></script>
+
+    <!-- This is the bootstrap js, need to be loaded at last. -->
+    <script src="js/demoProjectBootstrap.js"></script>
+</body>
+</body>
+
+</html>

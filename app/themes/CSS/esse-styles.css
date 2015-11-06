@@ -1,0 +1,29 @@
+.item-line {
+    padding:5px;
+    font: normal 16px/40px calibri,helvetica,arial;
+    color: #1A1E27;
+    padding-left: 70px;
+    background: rgb(245, 245, 245);
+}
+.item-line-label {
+    display: inline-block;
+    width: 200px;
+}
+.item-line-value{
+     display: inline-block;
+     text-align:center;
+}
+.btnClass{
+  background-color : #DFDFDF;
+}
+.navLinks {
+    padding: 15px;
+     background-color: silver;
+}
+.btnDiv {
+    margin: 10px;
+    text-align: center;
+}
+.labelTitle {
+    margin: 10px;
+}

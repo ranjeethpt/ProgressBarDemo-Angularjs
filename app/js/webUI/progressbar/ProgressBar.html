@@ -1,0 +1,37 @@
+<div class="modal-header">
+  <h3>Progress Bar Demo</h3>
+</div>
+<div class="modal-body">
+  <div ng-controller="ProgressBarCntrl as progressBarCtrl">
+    <div class="row">
+      <div class="col-sm-12">
+        <progressbar class="progress-striped active" value="progressBarCtrl.dynamic1" type="{{progressBarCtrl.type1}}">
+         {{progressBarCtrl.value1}}% 
+         <i ng-show="progressBarCtrl.showWarning1">!!! Watch out !!!</i>
+       </progressbar>
+
+       <progressbar class="progress-striped active" value="progressBarCtrl.dynamic2" type="{{progressBarCtrl.type2}}">
+         {{progressBarCtrl.value2}}% 
+         <i ng-show="progressBarCtrl.showWarning2">!!! Watch out !!!</i>
+       </progressbar>
+
+       <progressbar class="progress-striped active" value="progressBarCtrl.dynamic3" type="{{progressBarCtrl.type3}}">
+         {{progressBarCtrl.value3}}%
+         <i ng-show="progressBarCtrl.showWarning3">!!! Watch out !!!</i>
+       </progressbar>
+     </div>
+     <div>
+        <select name="progressBarSelector" ng-model=progressBarCtrl.progressBarDrpDwn>
+                <option value=1>#progress1</option>
+                <option value=2>#progress2</option>
+                <option value=3>#progress3</option>
+        </select>
+        <button class="btn btn-primary" ng-click="progressBarCtrl.changeProgressBar(-25)">-25</button>
+        <button class="btn btn-primary" ng-click="progressBarCtrl.changeProgressBar(-10)">-10</button>
+        <button class="btn btn-primary" ng-click="progressBarCtrl.changeProgressBar(10)">10</button>
+        <button class="btn btn-primary" ng-click="progressBarCtrl.changeProgressBar(25)">25</button>
+     </div>
+   </div>
+ </div>
+ 
+
